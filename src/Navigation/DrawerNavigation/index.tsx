@@ -43,7 +43,6 @@ const DrawerNavigation = () => {
         drawerInactiveTintColor: multiThemeColor().textcolor,
         drawerPosition: 'left',
         headerStyle: {
-          //   backgroundColor: '#0455a4',
           backgroundColor: '#3177b5',
         },
         drawerType: 'back',

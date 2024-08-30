@@ -4,7 +4,7 @@ import {StatusBar} from 'react-native';
 import {multiThemeColor} from '../../Utils/AppConstant';
 import SplashScreen from '../../Screens/SplashScreen';
 import DrawerNavigation from '../DrawerNavigation';
-import Test_Screen from '../../Screens/Test_Screen';
+// import Test_Screen from '../../Screens/Test_Screen';
 
 export type RootStackParamList = {
   SplashScreen: undefined;
@@ -46,44 +46,12 @@ const MainNavigation: React.FC = () => {
           headerShown: false,
         }}>
         <Stack.Screen name="SplashScreen" component={SplashScreen} />
-        {/* <Stack.Screen name="WelcomeScreen" component={WelcomeScreen} />
-        <Stack.Screen name="SignUpMember" component={SignUpMember} />
-        <Stack.Screen name="LogInMember" component={LoginMember} />
-        <Stack.Screen name="PhoneNumberScreen" component={PhoneNumberScreen} />
-        <Stack.Screen name="OTPScreen" component={OTPScreen} /> */}
 
         <Stack.Screen name="DrawerNavigation" component={DrawerNavigation} />
-        <Stack.Screen name="Test_Screen" component={Test_Screen} />
+        {/* <Stack.Screen name="Test_Screen" component={Test_Screen} /> */}
         {/* <Stack.Screen
           name="Dilemmas Description"
           component={Add_Dilemmas}
-          options={{
-            headerShown: true,
-            headerStyle: {backgroundColor: multiThemeColor().GRAY},
-            headerTintColor: color.OnlyWHITE,
-          }}
-        /> */}
-        {/* <Stack.Screen
-          name="SearchHome"
-          component={SearchHome}
-          options={{
-            headerShown: false,
-            headerStyle: {backgroundColor: multiThemeColor().GRAY},
-            headerTintColor: color.OnlyWHITE,
-          }}
-        />
-        <Stack.Screen
-          name="ProandCons"
-          component={ProandCons}
-          options={{
-            headerShown: false,
-            headerStyle: {backgroundColor: multiThemeColor().GRAY},
-            headerTintColor: color.OnlyWHITE,
-          }}
-        />
-        <Stack.Screen
-          name="Argument"
-          component={AddArgument}
           options={{
             headerShown: true,
             headerStyle: {backgroundColor: multiThemeColor().GRAY},
