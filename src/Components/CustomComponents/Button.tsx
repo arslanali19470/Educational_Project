@@ -7,7 +7,8 @@ import {
   ViewStyle,
   TextStyle,
 } from 'react-native';
-import {multiThemeColor, normalized} from '../../Utils/AppConstants';
+// import {multiThemeColor, normalized} from '../../Utils/AppConstants';
+import {multiThemeColor, normalized} from '../../Utils/AppConstant';
 // import {multiThemeColor, normalized} from '../../utils/AppConstants';
 // import {WHITE} from '../../styles/Colors';
 
@@ -26,6 +27,7 @@ interface ButtonProps {
   fontWeight?: TextStyle['fontWeight'];
   txtmarginLeft?: number;
   disabled?: boolean;
+  borderRadius?: number;
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -43,16 +45,17 @@ const Button: React.FC<ButtonProps> = ({
   fontWeight,
   txtmarginLeft,
   disabled,
+  borderRadius,
 }) => {
   const buttonStyle: ViewStyle = {
     height: height || normalized.hp('5.2%'),
     width: width || normalized.wp('90%'),
-    borderRadius: 4,
+    borderRadius: borderRadius || 4,
     alignSelf: alignSelf || 'center',
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'row',
-    backgroundColor: backgroundColor || 'red',
+    backgroundColor: backgroundColor || '#0961F5',
     ...(absolute || absoluteRed
       ? {position: 'absolute', bottom: absoluteRed ? normalized.hp(7) : 0}
       : {}),
@@ -83,6 +86,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     left: normalized.wp(2),
     marginLeft: 50,
+    // borderRadius: bo,
     // marginRight: 10,
   },
 });

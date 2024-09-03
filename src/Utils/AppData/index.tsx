@@ -20,20 +20,26 @@ export interface University {
   name: string;
   degrees: Degree[];
 }
+
+export interface ProgramDetails {
+  name: string;
+  feeStructure: string;
+  facilitiesMembers: string[];
+}
 // const [AllUniversities, setAllUniversities] = useState([]);
 // console.log(data.universities);
 // List of universities for the first dropdown
 export const universitiesInPakistan = [
-  'LUMS',
+  // 'LUMS',
   'NUST',
-  'Punjab University',
-  'Aga Khan University',
-  'Quaid-i-Azam University',
-  'IBA',
+  // 'Punjab University',
+  // 'Aga Khan University',
+  // 'Quaid-i-Azam University',
+  // 'IBA',
   'COMSATS University',
-  'University of Karachi',
-  'PIEAS',
-  'GIKI',
+  // 'University of Karachi',
+  // 'PIEAS',
+  // 'GIKI',
 ];
 
 // Data structure to be compared with the university selected from the dropdown

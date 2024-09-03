@@ -1,2 +1,10 @@
 export const Splash_image = require('./Images/Splash_Icon.png');
 export const main_Logo = require('./Images/main_Logo.png');
+export const SHAPE = require('./Images/SHAPE.png');
+export const HomeScreenLogo = require('./Images/HomeScreenLogo.png');
+export const List1 = require('./Images/List1.png');
+export const List2 = require('./Images/List2.png');
+export const List3 = require('./Images/List3.png');
+export const List4 = require('./Images/List4.png');
+export const PUIMG = require('./Images/PUIMG.png');
+export const Profile = require('./Images/Profile.png');
