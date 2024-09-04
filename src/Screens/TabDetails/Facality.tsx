@@ -1,12 +1,24 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {View, Text, StyleSheet, ScrollView} from 'react-native';
 import Heading from '../../Components/CustomComponents/Heading';
 
-const Facality = () => {
+const Facality = ({route}) => {
+  const {facilitiesMembers, ProgramName} = route.params;
   const array1 = ['SEEMAB LATIF', 'Usman Zabit', 'Hassaan Khaliq Qureshi'];
+
   return (
     <ScrollView style={{padding: 15}}>
-      {array1.map((item, ind) => (
+      <Text
+        style={{
+          fontSize: 17,
+          fontWeight: 'bold',
+          marginBottom: 25,
+          marginTop: 10,
+        }}>
+        Facality Of {ProgramName}
+      </Text>
+
+      {facilitiesMembers.map((item, ind) => (
         <View
           key={ind}
           style={{
@@ -30,17 +42,13 @@ const Facality = () => {
               flexDirection: 'column',
             }}>
             <Heading
-              text={item}
+              text={item.ProfessorName}
               textAlign="center"
               fontSize={15}
               color="#333"
               weight={'bold'}
             />
-            <Heading
-              text="Associate Professor"
-              textAlign="center"
-              fontSize={15}
-            />
+            <Heading text={item.Rank} textAlign="center" fontSize={15} />
           </View>
         </View>
       ))}

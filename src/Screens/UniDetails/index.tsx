@@ -22,7 +22,7 @@ export type ArgumentScreenProps = {
 };
 
 const Unidetails = ({navigation, route}: ArgumentScreenProps) => {
-  const {programDetails} = route.params;
+  const {programDetails, universityName} = route.params;
 
   return (
     <View style={{backgroundColor: 'white', flex: 1, padding: 10}}>
@@ -55,7 +55,8 @@ const Unidetails = ({navigation, route}: ArgumentScreenProps) => {
       />
       <Space height={10} />
       <Heading
-        text="Punjab University"
+        // text="Punjab University"
+        text={universityName}
         weight={'bold'}
         textAlign="center"
         fontSize={20}
@@ -135,7 +136,12 @@ const Unidetails = ({navigation, route}: ArgumentScreenProps) => {
         />
       </View>
       <Space height={20} />
-      <TabDetails />
+      <TabDetails
+        facilitiesMembers={programDetails.facilitiesMembers}
+        LastMerit={programDetails.LastYearMerit}
+        ProgramName={programDetails.name}
+        FeesStruure={programDetails.feeStructure}
+      />
     </View>
   );
 };

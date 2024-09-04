@@ -476,6 +476,7 @@ const Home = () => {
                 if (selectedProgram) {
                   navigation.navigate('Unidetails', {
                     programDetails: selectedProgram,
+                    universityName: selectedUniversity.name,
                   });
                 }
               }

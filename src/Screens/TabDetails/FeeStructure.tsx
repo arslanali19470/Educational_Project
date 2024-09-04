@@ -2,7 +2,8 @@ import React from 'react';
 import {View, Text, StyleSheet, ScrollView} from 'react-native';
 import Heading from '../../Components/CustomComponents/Heading';
 
-const FeeStructure = () => {
+const FeeStructure = ({route}) => {
+  const {FeesStruure} = route.params;
   return (
     <ScrollView style={styles.container}>
       {/* <Heading
@@ -15,6 +16,7 @@ const FeeStructure = () => {
       {/* Undergraduate Programs */}
       <Text style={styles.sectionTitle}>Undergraduate Programs</Text>
 
+      <Text style={styles.subHeading}>{FeesStruure}</Text>
       <Text style={styles.subHeading}>1. Tuition Fees</Text>
       <Text style={styles.text}>- Arts & Humanities: $8,000 per year</Text>
       <Text style={styles.text}>- Science & Technology: $10,000 per year</Text>

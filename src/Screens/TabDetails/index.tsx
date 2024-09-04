@@ -6,7 +6,12 @@ import FeeStructure from './FeeStructure';
 
 const Tab = createMaterialTopTabNavigator();
 
-export function TabDetails() {
+export function TabDetails({
+  facilitiesMembers,
+  LastMerit,
+  ProgramName,
+  FeesStruure,
+}) {
   return (
     <Tab.Navigator
       initialRouteName="Facality"
@@ -21,18 +26,21 @@ export function TabDetails() {
         name="Facality"
         component={Facality}
         options={{tabBarLabel: 'Facality'}}
+        initialParams={{facilitiesMembers, ProgramName}}
       />
 
       <Tab.Screen
         name="Last Year Merit"
         component={LastYearMerit}
         options={{tabBarLabel: 'Last Merit'}}
+        initialParams={{LastMerit}}
       />
 
       <Tab.Screen
         name="FeeStructure"
         component={FeeStructure}
         options={{tabBarLabel: 'Fees'}}
+        initialParams={{FeesStruure}}
       />
     </Tab.Navigator>
   );

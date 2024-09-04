@@ -1,13 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
-const LastYearMerit = () => {
+const LastYearMerit = ({route}) => {
+  const {LastMerit} = route.params;
+  useEffect(() => {
+    console.log(LastMerit);
+  }, []);
   return (
     <View style={styles.container}>
       <Text style={styles.heading}>Last Year's Merit Details</Text>
 
-      <Text style={styles.text}>- The overall merit cutoff was 92%.</Text>
-      <Text style={styles.text}>- Science & Technology: 94%.</Text>
+      <Text style={styles.text}>{LastMerit}</Text>
     </View>
   );
 };
