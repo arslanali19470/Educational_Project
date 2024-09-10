@@ -42,16 +42,16 @@ const SplashScreen: React.FC = () => {
             style={{
               borderWidth: 2,
               borderColor: 'white',
-              height: 300,
-              width: 300,
+              height: 260,
+              width: 260,
               borderRadius: 200,
               alignItems: 'center',
               justifyContent: 'center',
             }}>
             <Picture
               localSource={Splash_image}
-              height={normalized.hp('30%')}
-              width={normalized.hp('40%')}
+              height={normalized.hp('23%')}
+              width={normalized.hp('32%')}
               resizeMode="contain"
             />
           </View>

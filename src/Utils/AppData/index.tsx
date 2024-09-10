@@ -583,48 +583,147 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'CONSTRUCTION ENGINEERING AND MANAGEMENT',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'URBAN & REGIONAL PLANNING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'REMOTE SENSING AND GEOGRAPHICAL INFORMATION SYSTEMS',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'ENVIRONMENTAL ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'ENVIRONMENTAL SCIENCE',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'WATER RESOURCES ENGINEERING & MANAGEMENT',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'STRUCTURAL ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'TRANSPORTATION ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'GEOTECHNICAL ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -633,18 +732,51 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'MATERIALS AND SURFACE ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'CHEMICAL ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'NANOSCIENCE & ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -653,38 +785,115 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'INFORMATION TECHNOLOGY',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'COMPUTER SCIENCE',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'INNOVATIVE TECHNOLOGIES IN LEARNING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'ELECTRICAL ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'INFORMATION SECURITY',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'DATA SCIENCE',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'ARTIFICIAL INTELLIGENCE',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -693,28 +902,83 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'BIOMEDICAL ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'BIOMEDICAL SCIENCES',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'DESIGN AND MANUFACTURING ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'ROBOTICS AND INTELLIGENT MACHINE ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MECHANICAL ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -723,23 +987,67 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'ELECTRICAL ENGINEERING (POWER)',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'THERMAL ENERGY ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'ENERGY SYSTEMS ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'RENEWABLE ENERGY',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -748,18 +1056,51 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'COMPUTER SCIENCE',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MINING ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'CIVIL ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -768,38 +1109,115 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'ELECTRICAL ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MECHANICAL ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'ENGINEERING MANAGEMENT',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'AEROSPACE ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'AVIONICS ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'AVIATION MANAGEMENT',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'INDUSTRIAL AND MANUFACTURING ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -808,43 +1226,131 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'ELECTRICAL ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MECHANICAL ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'COMPUTER ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MECHATRONICS ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'ENGINEERING MANAGEMENT',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'SOFTWARE ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'ARTIFICIAL INTELLIGENCE',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'APPLIED MATHEMATICS',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -853,43 +1359,131 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'CONSTRUCTION ENGINEERING AND MANAGEMENT',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'WATER RESOURCES ENGINEERING & MANAGEMENT',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MATHEMATICS',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'DISASTER MANAGEMENT',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'STRUCTURAL ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'TRANSPORTATION ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'GEOTECHNICAL ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MINING ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -898,23 +1492,67 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'COMPUTER SCIENCE',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'ELECTRICAL ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'INFORMATION SECURITY',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'SOFTWARE ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -923,33 +1561,99 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'ELECTRICAL ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MECHANICAL ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MANUFACTURING ENGINEERING & MANAGEMENT',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'NAVAL ARCHITECTURE',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'CYBER SECURITY',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'ARTIFICIAL INTELLIGENCE',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -958,18 +1662,51 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'STRUCTURAL ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'TRANSPORTATION ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'GEOTECHNICAL ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -978,13 +1715,35 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'ENVIRONMENTAL ENGINEERING',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'ENVIRONMENTAL SCIENCE',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -993,33 +1752,99 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'MS Construction Engineering and Management',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Urban & Regional Planning',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Water Resources Engineering & Management',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Structural Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Transportation Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Geotechnical Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1028,8 +1853,19 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'MS Remote Sensing and Geographical Information Systems',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1038,33 +1874,99 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'Masters in Business Administration (MBA)',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Executive MBA',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Human Resource Management',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Innovation and Entrepreneurship',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Logistics & Supply Chain Management',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Marketing',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1073,8 +1975,19 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'Masters in Architectural Design',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1083,13 +1996,35 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'MS Peace & Conflict Studies',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Strategic Studies',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1098,8 +2033,19 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'MS Peace & Conflict Studies',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1108,38 +2054,115 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'MS Innovative Technologies in Learning',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Career Counseling and Education',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Economics',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Clinical Psychology',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Mass Communication',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Development Studies',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Governance & Public Policy',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1148,8 +2171,19 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'Currently no programme offered for Masters.',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1158,28 +2192,83 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'MS Healthcare Biotechnology',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Industrial Biotechnology',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Plant Biotechnology',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Agribusiness Management',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Molecular Medicine',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1188,28 +2277,83 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'MS Mathematics',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Mathematics for Fall 2018 and prior',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Physics',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Chemistry',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Statistics',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1218,8 +2362,19 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'Currently no programme offered for Masters.',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1228,23 +2383,67 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'MS Computational Science and Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Bioinformatics',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Systems Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'MS Climate Change & Sustainable Development',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1258,48 +2457,147 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Urban & Regional Planning',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Construction Engineering and Management',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Remote Sensing and Geographical Information Systems',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Environmental Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Environmental Science',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Structural Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Water Resources Engineering & Management',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Geotechnical Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Transportation Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1308,18 +2606,51 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Materials and Surface Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Chemical Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Nanoscience & Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1328,28 +2659,83 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Information Technology',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Electrical Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Information Security',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Computer Science',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Artificial Intelligence',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1358,28 +2744,83 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Design and Manufacturing Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Robotics and Intelligent Machine Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Mechanical Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Biomedical Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Biomedical Sciences',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1388,18 +2829,51 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Energy Systems Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Thermal Energy Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Electrical Engineering (Power)',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1408,13 +2882,35 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Computer Science',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Civil Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1423,23 +2919,67 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Electrical Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Mechanical Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Aerospace Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Avionics Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1448,38 +2988,115 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Electrical Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Mechanical Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Computer Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Mechatronics Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Engineering Management',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Software Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Applied Mathematics',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1488,38 +3105,115 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Construction Engineering and Management',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Structural Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Water Resources Engineering & Management',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Mathematics',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Geotechnical Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Transportation Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Mining Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1528,23 +3222,67 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Electrical Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Information Security',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Computer Science',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Software Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1553,18 +3291,51 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Electrical Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Mechanical Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Manufacturing Engineering & Management',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1573,18 +3344,51 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Structural Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Geotechnical Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Transportation Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1593,13 +3397,35 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Environmental Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Environmental Science',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1608,33 +3434,99 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Urban & Regional Planning',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Construction Engineering and Management',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Structural Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Water Resources Engineering & Management',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Geotechnical Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Transportation Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1643,8 +3535,19 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Remote Sensing and Geographical Information Systems',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1653,8 +3556,19 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Business Administration',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1663,8 +3577,19 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Peace & Conflict Studies',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1673,8 +3598,19 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Peace & Conflict Studies',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1683,13 +3619,35 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Psychology',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Economics',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1698,8 +3656,19 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Applied Biosciences',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1708,23 +3677,67 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Mathematics',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Physics',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Chemistry',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Statistics',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1733,18 +3746,51 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'PhD Computational Science and Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Bioinformatics',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'PhD Climate Change & Sustainable Development',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1763,13 +3809,35 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'Accounting & Finance',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Business Administration',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1777,34 +3845,100 @@ export const data: {universities: University[]} = {
               name: 'CS & IT',
               programs: [
                 {
-                  name: 'Artificial Intelligence',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  name: 'SOFTWARE ENGINEERING',
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Computer Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Computer Science',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Cyber Security',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Software Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Data Sciences',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1813,8 +3947,19 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'Civil Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1823,23 +3968,67 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'Pharmacy (Pharm-D)',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Bioinformatics',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Biotechnology',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Biosciences',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1848,8 +4037,19 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'Mechanical Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1858,8 +4058,19 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'Chemical Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1868,28 +4079,83 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'Environmental Sciences',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Food Sciences and Nutrition',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Development Studies',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'International Relations',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Media and Communication Studies',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1898,13 +4164,35 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'Economics',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Economics with Data Science',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1913,23 +4201,67 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'Electronics',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Electrical Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Electrical (Power) Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Electrical (Electronics) Engineering',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1938,13 +4270,35 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'Geophysics',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Geology',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1953,28 +4307,83 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'Mathematics',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Mathematics with Data Science',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Physics',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Statistics',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'English',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1983,8 +4392,19 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'Psychology',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },
@@ -1993,23 +4413,67 @@ export const data: {universities: University[]} = {
               programs: [
                 {
                   name: 'Architecture',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Design',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Interior Design',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
                 {
                   name: 'Fine Arts',
-                  feeStructure: '',
-                  facilitiesMembers: [],
+                  feeStructure: 'PKR 500,000 per semester',
+                  facilitiesMembers: [
+                    {
+                      ProfessorName: 'SEEMAB LATIF',
+                      Rank: 'Associate Professor',
+                    },
+                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Hassaan Khaliq Qureshi',
+                      Rank: 'Associate Professor',
+                    },
+                  ],
+                  LastYearMerit: 'The Merit was Close on 95.2%',
                 },
               ],
             },

@@ -73,14 +73,17 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     marginTop: 20,
+    color: '#222',
   },
   subHeading: {
     fontSize: 16,
     fontWeight: 'bold',
     marginTop: 10,
+    color: '#333',
   },
   text: {
     fontSize: 14,
     marginTop: 5,
+    color: '#444',
   },
 });

@@ -14,6 +14,7 @@ const Facality = ({route}) => {
           fontWeight: 'bold',
           marginBottom: 25,
           marginTop: 10,
+          color: '#222',
         }}>
         Facality Of {ProgramName}
       </Text>

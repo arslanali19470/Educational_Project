@@ -20,7 +20,11 @@ import {
   List4,
   Profile,
 } from '../../Assets';
-import {MaterialIcons, normalized} from '../../Utils/AppConstant';
+import {
+  MaterialIcons,
+  multiThemeColor,
+  normalized,
+} from '../../Utils/AppConstant';
 import Space from '../../Components/CustomComponents/Space';
 import {
   RouteProp,
@@ -62,7 +66,6 @@ const Home = () => {
   const navigation = useNavigation<ArgumentNavigationProp>();
 
   const [Loading, setLoading] = useState(false);
-
   useEffect(() => {
     if (firstValue) {
       const selectedUniversity = data.universities.find(
@@ -176,16 +179,30 @@ const Home = () => {
 
   return (
     <KeyboardAvoidingView
-      style={{flex: 1}}
+      style={{
+        flex: 1,
+        //  backgroundColor: '#F5F9FF'
+        // backgroundColor: multiThemeColor().main_background,
+      }}
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
       keyboardVerticalOffset={Platform.OS === 'ios' ? 60 : 0}>
       <ScrollView
         contentContainerStyle={{flexGrow: 1}}
         keyboardShouldPersistTaps="handled">
         <View
-          style={{flex: 1, paddingHorizontal: 20, backgroundColor: 'white'}}>
+          style={{
+            flex: 1,
+            paddingHorizontal: 20,
+            backgroundColor: '#F5F9FF',
+            // backgroundColor: multiThemeColor().main_background,
+            // backgroundColor: 'red',
+          }}>
           <LoadingModel Loading={Loading} />
-          <View style={{alignItems: 'center', marginBottom: 20}}>
+          <View
+            style={{
+              alignItems: 'center',
+              marginBottom: 20,
+            }}>
             <Picture
               localSource={HomeScreenLogo}
               height={normalized.hp('20%')}
@@ -200,7 +217,12 @@ const Home = () => {
               flexDirection: 'row',
               justifyContent: 'center',
               alignItems: 'center',
-              paddingLeft: 20,
+              backgroundColor: 'white',
+              padding: 5,
+              paddingLeft: 30,
+              height: 50,
+              borderRadius: 10,
+              zIndex: 100,
             }}>
             <Picture
               localSource={List1}
@@ -233,11 +255,15 @@ const Home = () => {
                 height: 40,
                 borderWidth: 0,
               }}
+              searchTextInputStyle={{
+                borderWidth: 0, // Remove the border inside the search text input
+              }}
               dropDownContainerStyle={{
                 backgroundColor: '#fff',
                 maxHeight: 300,
-                width: 330,
-                marginLeft: -60,
+                width: 320,
+                marginLeft: -66,
+                marginTop: -42,
                 borderWidth: 0,
                 shadowColor: '#000',
                 shadowOffset: {
@@ -248,8 +274,8 @@ const Home = () => {
                 shadowRadius: 16.0,
                 elevation: 24,
               }}
-              zIndex={3000}
-              zIndexInverse={1000}
+              zIndex={9000}
+              zIndexInverse={9000}
               ListEmptyComponent={() => (
                 <Text style={{padding: 10, textAlign: 'center', color: '#999'}}>
                   Select the university first
@@ -258,7 +284,7 @@ const Home = () => {
             />
           </View>
 
-          <Space height={60} />
+          <Space height={40} />
 
           {/* Second DropDown */}
           <View
@@ -266,7 +292,12 @@ const Home = () => {
               flexDirection: 'row',
               justifyContent: 'center',
               alignItems: 'center',
-              paddingLeft: 20,
+              backgroundColor: 'white',
+              padding: 5,
+              paddingLeft: 30,
+              height: 50,
+              borderRadius: 10,
+              zIndex: 90,
             }}>
             <Picture
               localSource={List2}
@@ -296,11 +327,14 @@ const Home = () => {
                 height: 40,
                 borderWidth: 0,
               }}
+              searchTextInputStyle={{
+                borderWidth: 0, // Remove the border inside the search text input
+              }}
               dropDownContainerStyle={{
                 backgroundColor: '#fff',
                 maxHeight: 300,
                 width: 330,
-                marginLeft: -60,
+                marginLeft: -70,
                 borderWidth: 0,
                 shadowColor: '#000',
                 shadowOffset: {
@@ -321,7 +355,7 @@ const Home = () => {
             />
           </View>
 
-          <Space height={60} />
+          <Space height={40} />
 
           {/* Third DropDown */}
           <View
@@ -329,7 +363,12 @@ const Home = () => {
               flexDirection: 'row',
               justifyContent: 'center',
               alignItems: 'center',
-              paddingLeft: 20,
+              backgroundColor: 'white',
+              padding: 5,
+              paddingLeft: 30,
+              height: 50,
+              borderRadius: 10,
+              zIndex: 80,
             }}>
             <Picture
               localSource={List3}
@@ -359,11 +398,14 @@ const Home = () => {
                 height: 40,
                 borderWidth: 0,
               }}
+              searchTextInputStyle={{
+                borderWidth: 0, // Remove the border inside the search text input
+              }}
               dropDownContainerStyle={{
                 backgroundColor: '#fff',
                 maxHeight: 300,
                 width: 330,
-                marginLeft: -60,
+                marginLeft: -70,
                 borderWidth: 0,
                 shadowColor: '#000',
                 shadowOffset: {
@@ -384,7 +426,7 @@ const Home = () => {
             />
           </View>
 
-          <Space height={60} />
+          <Space height={40} />
 
           {/* Fourth DropDown */}
           <View
@@ -392,7 +434,12 @@ const Home = () => {
               flexDirection: 'row',
               justifyContent: 'center',
               alignItems: 'center',
-              paddingLeft: 20,
+              backgroundColor: 'white',
+              padding: 5,
+              paddingLeft: 30,
+              height: 50,
+              borderRadius: 10,
+              zIndex: 70,
             }}>
             <Picture
               localSource={List4}
@@ -422,11 +469,14 @@ const Home = () => {
                 height: 40,
                 borderWidth: 0,
               }}
+              searchTextInputStyle={{
+                borderWidth: 0, // Remove the border inside the search text input
+              }}
               dropDownContainerStyle={{
                 backgroundColor: '#fff',
                 maxHeight: 300,
                 width: 330,
-                marginLeft: -60,
+                marginLeft: -70,
                 borderWidth: 0,
                 shadowColor: '#000',
                 shadowOffset: {
@@ -453,7 +503,7 @@ const Home = () => {
           <TouchableOpacity
             style={{
               backgroundColor: '#0961F5',
-              height: 45,
+              height: 47,
               justifyContent: 'center',
               alignItems: 'flex-end',
               paddingRight: 10,
@@ -488,13 +538,13 @@ const Home = () => {
                 justifyContent: 'center',
                 // gap: 20,
               }}>
-              <Text style={{color: 'white', fontWeight: 'bold', fontSize: 17}}>
+              <Text style={{color: 'white', fontWeight: 'bold', fontSize: 18}}>
                 Continue
               </Text>
               <View
                 style={{
-                  height: 35,
-                  width: 35,
+                  height: 40,
+                  width: 40,
                   backgroundColor: 'white',
                   justifyContent: 'center',
                   alignItems: 'center',
@@ -502,7 +552,7 @@ const Home = () => {
                   marginLeft: 90,
                 }}>
                 <View style={{alignItems: 'center'}}>
-                  <MaterialIcons name="east" color="#0961F5" size={20} />
+                  <MaterialIcons name="east" color="#0961F5" size={25} />
                 </View>
               </View>
             </View>

@@ -42,7 +42,7 @@ export const multiThemeColor = () => {
       WHITE: '#ffff',
       TRANSPARENT: 'transparent',
       main_background: '#2F3E46',
-      textcolor: '#fff',
+      textcolor: '#000',
       GRAY: '#000',
       GrayBox: '#181c1c',
       OnlyWHITE: '#FFF',

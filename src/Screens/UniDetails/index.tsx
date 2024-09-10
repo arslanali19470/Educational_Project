@@ -25,11 +25,21 @@ const Unidetails = ({navigation, route}: ArgumentScreenProps) => {
   const {programDetails, universityName} = route.params;
 
   return (
-    <View style={{backgroundColor: 'white', flex: 1, padding: 10}}>
-      <TouchableOpacity onPress={() => navigation.goBack()}>
-        <MaterialIcons name="keyboard-backspace" color="black" size={30} />
-      </TouchableOpacity>
-      {/* 
+    <View
+      style={{
+        backgroundColor: 'white',
+        flex: 1,
+        paddingLeft: 10,
+        paddingRight: 10,
+        paddingTop: 10,
+      }}>
+      <View style={{backgroundColor: 'white'}}>
+        <TouchableOpacity
+          onPress={() => navigation.goBack()}
+          style={{width: 40}}>
+          <MaterialIcons name="keyboard-backspace" color="black" size={30} />
+        </TouchableOpacity>
+        {/* 
       <View style={{marginTop: 20}}>
         <Text style={{fontSize: 24, fontWeight: 'bold'}}>
           {programDetails.name}
@@ -46,96 +56,105 @@ const Unidetails = ({navigation, route}: ArgumentScreenProps) => {
           ),
         )}
       </View> */}
-      <Picture
-        localSource={PUIMG}
-        height={normalized.hp('20%')}
-        width={normalized.hp('35%')}
-        resizeMode="contain"
-        alignSelf="center"
-      />
-      <Space height={10} />
-      <Heading
-        // text="Punjab University"
-        text={universityName}
-        weight={'bold'}
-        textAlign="center"
-        fontSize={20}
-      />
-      <Space height={5} />
-      <Heading text="Lahore" textAlign="center" fontSize={15} />
-      <Space height={20} />
-      <View style={{flexDirection: 'row', gap: 50, justifyContent: 'center'}}>
-        <View>
-          <Heading text="26" weight={'bold'} textAlign="center" fontSize={18} />
-          <Heading text="Courses" textAlign="center" fontSize={15} />
-        </View>
-        <View>
-          <Heading
-            text="15800"
-            weight={'bold'}
-            textAlign="center"
-            fontSize={18}
-          />
-          <Heading text="Students" textAlign="center" fontSize={15} />
-        </View>
-        <View>
-          <Heading
-            text="100"
-            weight={'bold'}
-            textAlign="center"
-            fontSize={18}
-          />
-          <Heading text="Rating" textAlign="center" fontSize={15} />
-        </View>
-      </View>
-      <Space height={20} />
-      <View
-        style={{
-          flexDirection: 'row',
-          gap: 20,
-          justifyContent: 'center',
-          alignItems: 'center',
-        }}>
-        <TouchableOpacity
-          style={{
-            backgroundColor: '#ddd',
-            width: '40%',
-            height: 40,
-            justifyContent: 'center',
-            alignItems: 'center',
-            borderRadius: 20,
-          }}>
-          <Text
-            style={{textAlign: 'center', color: 'black', fontWeight: '600'}}>
-            Website
-          </Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={{
-            backgroundColor: '#0961F5',
-            width: '40%',
-            height: 40,
-            justifyContent: 'center',
-            alignItems: 'center',
-            borderRadius: 20,
-          }}>
-          <Text
-            style={{textAlign: 'center', color: 'white', fontWeight: '600'}}>
-            Admission Portal{' '}
-          </Text>
-        </TouchableOpacity>
-      </View>
-      <Space height={20} />
-      <View>
-        <Heading
-          text="The University comprises six campuses, 19 Faculties, 08 Constituent Colleges, and 138 departments, centers, and institutes. The University also has 658 affiliated colleges"
-          textAlign="center"
-          //   textAlign="justify"
-          fontSize={14}
-          color="#666"
+        <Picture
+          localSource={PUIMG}
+          height={normalized.hp('20%')}
+          width={normalized.hp('35%')}
+          resizeMode="contain"
+          alignSelf="center"
         />
+        <Space height={10} />
+        <Heading
+          // text="Punjab University"
+          text={universityName}
+          weight={'bold'}
+          textAlign="center"
+          fontSize={20}
+          color="black"
+        />
+        <Space height={5} />
+        <Heading text="Lahore" textAlign="center" fontSize={15} />
+        <Space height={20} />
+        <View style={{flexDirection: 'row', gap: 50, justifyContent: 'center'}}>
+          <View>
+            <Heading
+              text="26"
+              weight={'bold'}
+              textAlign="center"
+              fontSize={18}
+            />
+            <Heading text="Courses" textAlign="center" fontSize={15} />
+          </View>
+          <View>
+            <Heading
+              text="15800"
+              weight={'bold'}
+              textAlign="center"
+              fontSize={18}
+            />
+            <Heading text="Students" textAlign="center" fontSize={15} />
+          </View>
+          <View>
+            <Heading
+              text="100"
+              weight={'bold'}
+              textAlign="center"
+              fontSize={18}
+            />
+            <Heading text="Rating" textAlign="center" fontSize={15} />
+          </View>
+        </View>
+        <Space height={20} />
+        <View
+          style={{
+            flexDirection: 'row',
+            gap: 20,
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}>
+          <TouchableOpacity
+            style={{
+              backgroundColor: '#ddd',
+              width: '40%',
+              height: 40,
+              justifyContent: 'center',
+              alignItems: 'center',
+              borderRadius: 20,
+            }}>
+            <Text
+              style={{textAlign: 'center', color: 'black', fontWeight: '600'}}>
+              Website
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={{
+              backgroundColor: '#0961F5',
+              width: '40%',
+              height: 40,
+              justifyContent: 'center',
+              alignItems: 'center',
+              borderRadius: 20,
+            }}>
+            <Text
+              style={{textAlign: 'center', color: 'white', fontWeight: '600'}}>
+              Admission Portal{' '}
+            </Text>
+          </TouchableOpacity>
+        </View>
+        <Space height={20} />
       </View>
-      <Space height={20} />
+      <View style={{backgroundColor: 'white', padding: 10}}>
+        <View>
+          <Heading
+            text="The University comprises six campuses, 19 Faculties, 08 Constituent Colleges, and 138 departments, centers, and institutes. The University also has 658 affiliated colleges"
+            textAlign="center"
+            //   textAlign="justify"
+            fontSize={14}
+            color="#666"
+          />
+        </View>
+        <Space height={20} />
+      </View>
       <TabDetails
         facilitiesMembers={programDetails.facilitiesMembers}
         LastMerit={programDetails.LastYearMerit}

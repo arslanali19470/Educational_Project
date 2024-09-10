@@ -29,9 +29,11 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
     marginBottom: 15,
+    color: '#333',
   },
   text: {
     fontSize: 16,
     marginTop: 5,
+    color: '#333',
   },
 });
