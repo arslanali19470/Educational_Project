@@ -1,10 +1,17 @@
 import React, {useEffect} from 'react';
 import {View, Text, StyleSheet, ScrollView} from 'react-native';
 import Heading from '../../Components/CustomComponents/Heading';
+import Picture from '../../Components/CustomComponents/Picture';
+import {normalized} from '../../Utils/AppConstant';
 
 const Facality = ({route}) => {
-  const {facilitiesMembers, ProgramName} = route.params;
+  const {facilitiesMembers, ProgramName, profImg} = route.params;
   const array1 = ['SEEMAB LATIF', 'Usman Zabit', 'Hassaan Khaliq Qureshi'];
+  // useEffect(() => {
+  //   profImg.forEach(element => {
+  //     console.log(element);
+  //   });
+  // }, []);
 
   return (
     <ScrollView style={{padding: 15}}>
@@ -28,14 +35,22 @@ const Facality = ({route}) => {
             gap: 20,
             marginBottom: 20,
           }}>
-          <View
+          {/* <View
             style={{
               height: 40,
               width: 40,
               backgroundColor: '#777',
               borderRadius: 100,
             }}
+          /> */}
+          <Picture
+            localSource={item.profImg}
+            height={normalized.hp('7%')}
+            width={normalized.hp('10%')}
+            resizeMode="contain"
+            alignSelf="center"
           />
+          {/* <Text>{profImg}</Text> */}
           <View
             style={{
               justifyContent: 'flex-start',

@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import {ComsetIMG, Profile, PUIMG} from '../../Assets';
 
 export interface Program {
   name: string;
@@ -6,8 +7,12 @@ export interface Program {
   facilitiesMembers: {
     ProfessorName: string;
     Rank: string;
+    profImg?: string;
   }[];
   LastYearMerit?: string;
+  AdmissionPortal?: string;
+  Website?: string;
+  UniIMG?: string;
 }
 
 export interface Department {
@@ -23,6 +28,9 @@ export interface Degree {
 export interface University {
   name: string;
   degrees: Degree[];
+  UniIMG?: string;
+  AdmissionPortal?: string;
+  Website?: string;
 }
 
 export interface ProgramDetails {
@@ -36,8 +44,8 @@ export interface ProgramDetails {
 // List of universities for the first dropdown
 export const universitiesInPakistan = [
   // 'LUMS',
-  'NUST',
-  // 'Punjab University',
+  // 'NUST',
+  'Punjab University',
   // 'Aga Khan University',
   // 'Quaid-i-Azam University',
   // 'IBA',
@@ -51,7 +59,10 @@ export const universitiesInPakistan = [
 export const data: {universities: University[]} = {
   universities: [
     {
-      name: 'NUST',
+      name: 'Punjab University',
+      UniIMG: PUIMG,
+      AdmissionPortal: 'https://admissions.pu.edu.pk/admissions/',
+      Website: 'https://www.pu.edu.pk/',
       degrees: [
         {
           degreeType: 'BACHELOR',
@@ -62,15 +73,22 @@ export const data: {universities: University[]} = {
                 {
                   name: 'SOFTWARE ENGINEERING',
                   feeStructure: 'PKR 500,000 per semester',
+
                   facilitiesMembers: [
                     {
                       ProfessorName: 'SEEMAB LATIF',
                       Rank: 'Associate Professor',
+                      profImg: Profile,
                     },
-                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Usman Zabit',
+                      Rank: 'Associate Professor',
+                      profImg: Profile,
+                    },
                     {
                       ProfessorName: 'Hassaan Khaliq Qureshi',
                       Rank: 'Associate Professor',
+                      profImg: Profile,
                     },
                   ],
                   LastYearMerit: 'The Merit was Close on 95.2%',
@@ -1052,7 +1070,7 @@ export const data: {universities: University[]} = {
               ],
             },
             {
-              name: 'NUST Balochistan Campus, Quetta',
+              name: ' Balochistan Campus, Quetta',
               programs: [
                 {
                   name: 'COMPUTER SCIENCE',
@@ -1748,7 +1766,7 @@ export const data: {universities: University[]} = {
               ],
             },
             {
-              name: 'NUST Institute of Civil Engineering',
+              name: 'Institute of Civil Engineering',
               programs: [
                 {
                   name: 'MS Construction Engineering and Management',
@@ -1870,7 +1888,7 @@ export const data: {universities: University[]} = {
               ],
             },
             {
-              name: 'NUST Business School',
+              name: 'Business School',
               programs: [
                 {
                   name: 'Masters in Business Administration (MBA)',
@@ -2029,7 +2047,7 @@ export const data: {universities: University[]} = {
               ],
             },
             {
-              name: 'NUST Institute of Peace & Conflict Studies',
+              name: 'Institute of Peace & Conflict Studies',
               programs: [
                 {
                   name: 'MS Peace & Conflict Studies',
@@ -2167,7 +2185,7 @@ export const data: {universities: University[]} = {
               ],
             },
             {
-              name: 'NUST Law School',
+              name: 'Law School',
               programs: [
                 {
                   name: 'Currently no programme offered for Masters.',
@@ -2358,7 +2376,7 @@ export const data: {universities: University[]} = {
               ],
             },
             {
-              name: 'NUST School of Health Sciences',
+              name: 'School of Health Sciences',
               programs: [
                 {
                   name: 'Currently no programme offered for Masters.',
@@ -2878,7 +2896,7 @@ export const data: {universities: University[]} = {
               ],
             },
             {
-              name: 'NUST Balochistan Campus, Quetta',
+              name: 'Balochistan Campus, Quetta',
               programs: [
                 {
                   name: 'PhD Computer Science',
@@ -3430,7 +3448,7 @@ export const data: {universities: University[]} = {
               ],
             },
             {
-              name: 'NUST Institute of Civil Engineering',
+              name: 'Institute of Civil Engineering',
               programs: [
                 {
                   name: 'PhD Urban & Regional Planning',
@@ -3552,7 +3570,7 @@ export const data: {universities: University[]} = {
               ],
             },
             {
-              name: 'NUST Business School',
+              name: 'Business School',
               programs: [
                 {
                   name: 'PhD Business Administration',
@@ -3594,7 +3612,7 @@ export const data: {universities: University[]} = {
               ],
             },
             {
-              name: 'NUST Institute of Peace & Conflict Studies',
+              name: 'Institute of Peace & Conflict Studies',
               programs: [
                 {
                   name: 'PhD Peace & Conflict Studies',
@@ -3800,6 +3818,9 @@ export const data: {universities: University[]} = {
     },
     {
       name: 'COMSATS University',
+      UniIMG: ComsetIMG,
+      AdmissionPortal: 'https://admissions.comsats.edu.pk/home/login',
+      Website: 'https://www.comsats.edu.pk/',
       degrees: [
         {
           degreeType: 'BACHELOR',
@@ -3851,11 +3872,17 @@ export const data: {universities: University[]} = {
                     {
                       ProfessorName: 'SEEMAB LATIF',
                       Rank: 'Associate Professor',
+                      profImg: Profile,
                     },
-                    {ProfessorName: 'Usman Zabit', Rank: 'Associate Professor'},
+                    {
+                      ProfessorName: 'Usman Zabit',
+                      Rank: 'Associate Professor',
+                      profImg: Profile,
+                    },
                     {
                       ProfessorName: 'Hassaan Khaliq Qureshi',
                       Rank: 'Associate Professor',
+                      profImg: Profile,
                     },
                   ],
                   LastYearMerit: 'The Merit was Close on 95.2%',

@@ -527,6 +527,9 @@ const Home = () => {
                   navigation.navigate('Unidetails', {
                     programDetails: selectedProgram,
                     universityName: selectedUniversity.name,
+                    UniIMG: selectedUniversity?.UniIMG,
+                    Website: selectedUniversity?.Website,
+                    AdmissionPortal: selectedUniversity?.AdmissionPortal,
                   });
                 }
               }
@@ -557,6 +560,75 @@ const Home = () => {
               </View>
             </View>
           </TouchableOpacity>
+          {/* <TouchableOpacity
+            style={{
+              backgroundColor: '#0961F5',
+              height: 47,
+              justifyContent: 'center',
+              alignItems: 'flex-end',
+              paddingRight: 10,
+              borderRadius: 40,
+            }}
+            onPress={() => {
+              if (!firstValue) {
+                ToastAndroid.show(
+                  'Please select a University first!',
+                  ToastAndroid.SHORT,
+                );
+                return;
+              }
+              if (!secondValue) {
+                ToastAndroid.show(
+                  'Please select a Degree first!',
+                  ToastAndroid.SHORT,
+                );
+                return;
+              }
+              if (!thirdValue) {
+                ToastAndroid.show(
+                  'Please select a Department first!',
+                  ToastAndroid.SHORT,
+                );
+                return;
+              }
+              if (!fourthValue) {
+                ToastAndroid.show(
+                  'Please select a Program first!',
+                  ToastAndroid.SHORT,
+                );
+                return;
+              }
+
+              // All fields are selected, proceed to navigate
+              const selectedUniversity = data.universities.find(
+                university => university.name === firstValue,
+              );
+              const selectedDegree = selectedUniversity?.degrees.find(
+                degree => degree.degreeType === secondValue,
+              );
+              const selectedDepartment = selectedDegree?.departments.find(
+                dept => dept.name === thirdValue,
+              );
+              const selectedProgram = selectedDepartment?.programs.find(
+                program => program.name === fourthValue,
+              );
+
+              if (selectedProgram) {
+                navigation.navigate('Unidetails', {
+                  programDetails: selectedProgram,
+                  universityName: selectedUniversity.name,
+                });
+              }
+            }}>
+            <View
+              style={{
+                flexDirection: 'row',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}>
+              <Text style={{color: '#fff', fontWeight: 'bold'}}>Continue</Text>
+            </View>
+          </TouchableOpacity> */}
         </View>
       </ScrollView>
     </KeyboardAvoidingView>

@@ -12,6 +12,7 @@ export function TabDetails({
   LastMerit,
   ProgramName,
   FeesStruure,
+  profImg,
 }) {
   return (
     <Tab.Navigator
@@ -33,7 +34,7 @@ export function TabDetails({
             {marginLeft: 10, width: '28%'},
           ], // Apply marginLeft here
         }}
-        initialParams={{facilitiesMembers, ProgramName}}
+        initialParams={{facilitiesMembers, ProgramName, profImg}}
       />
 
       <Tab.Screen

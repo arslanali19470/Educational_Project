@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {Linking, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import {MaterialIcons, normalized} from '../../Utils/AppConstant';
 import {StackNavigationProp} from '@react-navigation/stack';
 import {RootStackParamList} from '../../Navigation/MainNavigation';
@@ -22,7 +22,8 @@ export type ArgumentScreenProps = {
 };
 
 const Unidetails = ({navigation, route}: ArgumentScreenProps) => {
-  const {programDetails, universityName} = route.params;
+  const {programDetails, universityName, UniIMG, Website, AdmissionPortal} =
+    route.params;
 
   return (
     <View
@@ -56,14 +57,16 @@ const Unidetails = ({navigation, route}: ArgumentScreenProps) => {
           ),
         )}
       </View> */}
-        <Picture
-          localSource={PUIMG}
-          height={normalized.hp('20%')}
-          width={normalized.hp('35%')}
-          resizeMode="contain"
-          alignSelf="center"
-        />
-        <Space height={10} />
+        <View style={{marginTop: -30}}>
+          <Picture
+            localSource={UniIMG}
+            height={normalized.hp('15%')}
+            width={normalized.hp('28%')}
+            resizeMode="contain"
+            alignSelf="center"
+          />
+        </View>
+        <Space height={2} />
         <Heading
           // text="Punjab University"
           text={universityName}
@@ -74,7 +77,7 @@ const Unidetails = ({navigation, route}: ArgumentScreenProps) => {
         />
         <Space height={5} />
         <Heading text="Lahore" textAlign="center" fontSize={15} />
-        <Space height={20} />
+        <Space height={15} />
         <View style={{flexDirection: 'row', gap: 50, justifyContent: 'center'}}>
           <View>
             <Heading
@@ -104,7 +107,7 @@ const Unidetails = ({navigation, route}: ArgumentScreenProps) => {
             <Heading text="Rating" textAlign="center" fontSize={15} />
           </View>
         </View>
-        <Space height={20} />
+        <Space height={15} />
         <View
           style={{
             flexDirection: 'row',
@@ -120,7 +123,8 @@ const Unidetails = ({navigation, route}: ArgumentScreenProps) => {
               justifyContent: 'center',
               alignItems: 'center',
               borderRadius: 20,
-            }}>
+            }}
+            onPress={() => Linking.openURL(Website)}>
             <Text
               style={{textAlign: 'center', color: 'black', fontWeight: '600'}}>
               Website
@@ -134,32 +138,35 @@ const Unidetails = ({navigation, route}: ArgumentScreenProps) => {
               justifyContent: 'center',
               alignItems: 'center',
               borderRadius: 20,
-            }}>
+            }}
+            onPress={() => Linking.openURL(AdmissionPortal)}>
             <Text
               style={{textAlign: 'center', color: 'white', fontWeight: '600'}}>
               Admission Portal{' '}
             </Text>
           </TouchableOpacity>
         </View>
-        <Space height={20} />
+        <Space height={10} />
       </View>
-      <View style={{backgroundColor: 'white', padding: 10}}>
+      <View style={{backgroundColor: 'white', padding: 2}}>
         <View>
           <Heading
-            text="The University comprises six campuses, 19 Faculties, 08 Constituent Colleges, and 138 departments, centers, and institutes. The University also has 658 affiliated colleges"
+            text="The University comprises six campuses, 19 Faculties, 08 Constituent Colleges, and 138 departments"
             textAlign="center"
             //   textAlign="justify"
             fontSize={14}
             color="#666"
           />
         </View>
-        <Space height={20} />
+        <Space height={10} />
       </View>
       <TabDetails
         facilitiesMembers={programDetails.facilitiesMembers}
         LastMerit={programDetails.LastYearMerit}
         ProgramName={programDetails.name}
         FeesStruure={programDetails.feeStructure}
+        // profImg: Profile
+        profImg={programDetails.profImg}
       />
     </View>
   );

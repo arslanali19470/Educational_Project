@@ -8,3 +8,4 @@ export const List3 = require('./Images/List3.png');
 export const List4 = require('./Images/List4.png');
 export const PUIMG = require('./Images/PUIMG.png');
 export const Profile = require('./Images/Profile.png');
+export const ComsetIMG = require('./Images/Comsets.png');
