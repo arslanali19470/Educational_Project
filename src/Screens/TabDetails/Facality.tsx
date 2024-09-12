@@ -2,22 +2,29 @@ import React, {useEffect} from 'react';
 import {View, Text, StyleSheet, ScrollView} from 'react-native';
 import Heading from '../../Components/CustomComponents/Heading';
 import Picture from '../../Components/CustomComponents/Picture';
-import {normalized} from '../../Utils/AppConstant';
+import {normalized, normalizedFont} from '../../Utils/AppConstant';
+import {RouteProp} from '@react-navigation/native';
 
-const Facality = ({route}) => {
-  const {facilitiesMembers, ProgramName, profImg} = route.params;
-  const array1 = ['SEEMAB LATIF', 'Usman Zabit', 'Hassaan Khaliq Qureshi'];
-  // useEffect(() => {
-  //   profImg.forEach(element => {
-  //     console.log(element);
-  //   });
-  // }, []);
+type FacalityMember = {
+  ProfessorName: string;
+  Rank: string;
+  profImg: number;
+};
+
+type FacalityProps = {
+  route: RouteProp<
+    {params: {facilitiesMembers: FacalityMember[]; ProgramName: string}},
+    'params'
+  >;
+};
+const Facality: React.FC<FacalityProps> = ({route}) => {
+  const {facilitiesMembers, ProgramName} = route.params;
 
   return (
     <ScrollView style={{padding: 15}}>
       <Text
         style={{
-          fontSize: 17,
+          fontSize: normalizedFont.rf(2.5),
           fontWeight: 'bold',
           marginBottom: 25,
           marginTop: 10,
@@ -35,14 +42,6 @@ const Facality = ({route}) => {
             gap: 20,
             marginBottom: 20,
           }}>
-          {/* <View
-            style={{
-              height: 40,
-              width: 40,
-              backgroundColor: '#777',
-              borderRadius: 100,
-            }}
-          /> */}
           <Picture
             localSource={item.profImg}
             height={normalized.hp('7%')}
@@ -50,7 +49,6 @@ const Facality = ({route}) => {
             resizeMode="contain"
             alignSelf="center"
           />
-          {/* <Text>{profImg}</Text> */}
           <View
             style={{
               justifyContent: 'flex-start',
@@ -60,11 +58,15 @@ const Facality = ({route}) => {
             <Heading
               text={item.ProfessorName}
               textAlign="center"
-              fontSize={15}
+              fontSize={normalizedFont.rf(2.2)}
               color="#333"
               weight={'bold'}
             />
-            <Heading text={item.Rank} textAlign="center" fontSize={15} />
+            <Heading
+              text={item.Rank}
+              textAlign="center"
+              fontSize={normalizedFont.rf(2.2)}
+            />
           </View>
         </View>
       ))}
@@ -81,6 +83,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   text: {
-    fontSize: 20,
+    // fontSize: ,
+    // color: 'red',
   },
 });

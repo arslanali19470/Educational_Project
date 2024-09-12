@@ -8,22 +8,17 @@ import {
   Text,
   BackHandler,
   ToastAndroid,
-  ActivityIndicator,
 } from 'react-native';
-import DropDownPicker from 'react-native-dropdown-picker';
+import DropDownPicker, {
+  ValueType,
+  ItemType,
+} from 'react-native-dropdown-picker';
 import Picture from '../../Components/CustomComponents/Picture';
-import {
-  HomeScreenLogo,
-  List1,
-  List2,
-  List3,
-  List4,
-  Profile,
-} from '../../Assets';
+import {HomeScreenLogo, List1, List2, List3, List4} from '../../Assets';
 import {
   MaterialIcons,
-  multiThemeColor,
   normalized,
+  normalizedFont,
 } from '../../Utils/AppConstant';
 import Space from '../../Components/CustomComponents/Space';
 import {
@@ -31,7 +26,11 @@ import {
   useFocusEffect,
   useNavigation,
 } from '@react-navigation/native';
-import {data, universitiesInPakistan} from '../../Utils/AppData';
+import {
+  data,
+  ProgramDetails,
+  universitiesInPakistan,
+} from '../../Utils/AppData';
 import {StackNavigationProp} from '@react-navigation/stack';
 import {RootStackParamList} from '../../Navigation/MainNavigation';
 import LoadingModel from '../../Components/CustomComponents/LoadingModel';
@@ -44,28 +43,32 @@ export type ArgumentScreenProps = {
   route: ArgumentRouteProp;
 };
 
+type DropDownValueType = string | null;
+type DropDownItemType = {label: string; value: string};
+
 const Home = () => {
-  const [firstOpen, setFirstOpen] = useState(false);
-  const [firstValue, setFirstValue] = useState(null);
+  const [firstOpen, setFirstOpen] = useState<boolean>(false);
+  const [firstValue, setFirstValue] = useState<DropDownValueType>(null);
 
-  const [secondOpen, setSecondOpen] = useState(false);
-  const [secondValue, setSecondValue] = useState(null);
+  const [secondOpen, setSecondOpen] = useState<boolean>(false);
+  const [secondValue, setSecondValue] = useState<DropDownValueType>(null);
 
-  const [thirdOpen, setThirdOpen] = useState(false);
-  const [thirdValue, setThirdValue] = useState(null);
+  const [thirdOpen, setThirdOpen] = useState<boolean>(false);
+  const [thirdValue, setThirdValue] = useState<DropDownValueType>(null);
 
-  const [fourthOpen, setFourthOpen] = useState(false);
-  const [fourthValue, setFourthValue] = useState(null);
+  const [fourthOpen, setFourthOpen] = useState<boolean>(false);
+  const [fourthValue, setFourthValue] = useState<DropDownValueType>(null);
 
-  const [backPressCount, setBackPressCount] = useState(0);
+  const [backPressCount, setBackPressCount] = useState<number>(0);
 
-  const [degrees, setDegrees] = useState([]);
-  const [departments, setDepartments] = useState([]);
-  const [programs, setPrograms] = useState([]);
+  const [degrees, setDegrees] = useState<DropDownItemType[]>([]);
+  const [departments, setDepartments] = useState<DropDownItemType[]>([]);
+  const [programs, setPrograms] = useState<DropDownItemType[]>([]);
 
   const navigation = useNavigation<ArgumentNavigationProp>();
 
-  const [Loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState<boolean>(false);
+
   useEffect(() => {
     if (firstValue) {
       const selectedUniversity = data.universities.find(
@@ -91,7 +94,7 @@ const Home = () => {
       const selectedUniversity = data.universities.find(
         university => university.name === firstValue,
       );
-      const selectedDegree = selectedUniversity.degrees.find(
+      const selectedDegree = selectedUniversity?.degrees.find(
         degree => degree.degreeType === secondValue,
       );
       if (selectedDegree) {
@@ -112,10 +115,10 @@ const Home = () => {
       const selectedUniversity = data.universities.find(
         university => university.name === firstValue,
       );
-      const selectedDegree = selectedUniversity.degrees.find(
+      const selectedDegree = selectedUniversity?.degrees.find(
         degree => degree.degreeType === secondValue,
       );
-      const selectedDepartment = selectedDegree.departments.find(
+      const selectedDepartment = selectedDegree?.departments.find(
         dept => dept.name === thirdValue,
       );
       if (selectedDepartment) {
@@ -181,8 +184,6 @@ const Home = () => {
     <KeyboardAvoidingView
       style={{
         flex: 1,
-        //  backgroundColor: '#F5F9FF'
-        // backgroundColor: multiThemeColor().main_background,
       }}
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
       keyboardVerticalOffset={Platform.OS === 'ios' ? 60 : 0}>
@@ -194,15 +195,10 @@ const Home = () => {
             flex: 1,
             paddingHorizontal: 20,
             backgroundColor: '#F5F9FF',
-            // backgroundColor: multiThemeColor().main_background,
-            // backgroundColor: 'red',
           }}>
-          <LoadingModel Loading={Loading} />
-          <View
-            style={{
-              alignItems: 'center',
-              marginBottom: 20,
-            }}>
+          <LoadingModel Loading={loading} />
+          <Space height={normalized.hp(3)} />
+          <View style={{alignItems: 'center', marginBottom: 0}}>
             <Picture
               localSource={HomeScreenLogo}
               height={normalized.hp('20%')}
@@ -218,11 +214,12 @@ const Home = () => {
               justifyContent: 'center',
               alignItems: 'center',
               backgroundColor: 'white',
-              padding: 5,
-              paddingLeft: 30,
-              height: 50,
-              borderRadius: 10,
+              // backgroundColor: 'white',
+              paddingLeft: normalized.wp(8),
+              height: normalized.hp(7.5),
+              borderRadius: normalized.wp(2.5),
               zIndex: 100,
+              width: normalized.wp(90),
             }}>
             <Picture
               localSource={List1}
@@ -237,7 +234,6 @@ const Home = () => {
                 label: uni,
                 value: uni,
               }))}
-              //   setOpen={setFirstOpen}
               setOpen={() => {
                 setFirstOpen(!firstOpen);
                 setSecondOpen(false);
@@ -245,46 +241,41 @@ const Home = () => {
                 setFourthOpen(false);
               }}
               setValue={setFirstValue}
-              setItems={() => {}}
               placeholder="University"
-              searchable={true}
+              searchable
               searchPlaceholder="Search University"
               style={{
-                backgroundColor: '#fff',
-                width: 250,
-                height: 40,
+                width: normalized.wp(70),
+                height: normalized.hp(5),
                 borderWidth: 0,
               }}
               searchTextInputStyle={{
-                borderWidth: 0, // Remove the border inside the search text input
+                borderWidth: 0,
               }}
               dropDownContainerStyle={{
                 backgroundColor: '#fff',
-                maxHeight: 300,
-                width: 320,
-                marginLeft: -66,
-                marginTop: -42,
+                maxHeight: normalized.hp(40),
+                padding: 10,
+                width: normalized.wp(90),
+                marginLeft: normalized.wp(-18),
                 borderWidth: 0,
                 shadowColor: '#000',
-                shadowOffset: {
-                  width: 0,
-                  height: 12,
-                },
+                shadowOffset: {width: 0, height: 12},
                 shadowOpacity: 0.58,
                 shadowRadius: 16.0,
                 elevation: 24,
               }}
-              zIndex={9000}
-              zIndexInverse={9000}
+              // zIndex={4000}
+              // zIndexInverse={1000}
               ListEmptyComponent={() => (
-                <Text style={{padding: 10, textAlign: 'center', color: '#999'}}>
+                <Text style={{padding: 0, textAlign: 'center', color: '#999'}}>
                   Select the university first
                 </Text>
               )}
             />
           </View>
 
-          <Space height={40} />
+          <Space height={normalized.hp(5)} />
 
           {/* Second DropDown */}
           <View
@@ -293,10 +284,9 @@ const Home = () => {
               justifyContent: 'center',
               alignItems: 'center',
               backgroundColor: 'white',
-              padding: 5,
-              paddingLeft: 30,
-              height: 50,
-              borderRadius: 10,
+              paddingLeft: normalized.wp(8),
+              height: normalized.hp(7.5),
+              borderRadius: normalized.wp(2.5),
               zIndex: 90,
             }}>
             <Picture
@@ -309,7 +299,6 @@ const Home = () => {
               open={secondOpen}
               value={secondValue}
               items={degrees}
-              //   setOpen={setSecondOpen}
               setOpen={() => {
                 setSecondOpen(!secondOpen);
                 setFirstOpen(false);
@@ -317,46 +306,35 @@ const Home = () => {
                 setFourthOpen(false);
               }}
               setValue={setSecondValue}
-              setItems={() => {}}
               placeholder="Degree Level"
-              searchable={true}
+              searchable
               searchPlaceholder="Search Degree"
               style={{
-                backgroundColor: '#fff',
-                width: 250,
-                height: 40,
+                width: normalized.wp(70),
+                height: normalized.hp(5),
                 borderWidth: 0,
               }}
               searchTextInputStyle={{
-                borderWidth: 0, // Remove the border inside the search text input
+                borderWidth: 0,
               }}
               dropDownContainerStyle={{
                 backgroundColor: '#fff',
-                maxHeight: 300,
-                width: 330,
-                marginLeft: -70,
+                maxHeight: normalized.hp(40),
+                padding: 10,
+                width: normalized.wp(90),
+                marginLeft: normalized.wp(-18),
                 borderWidth: 0,
                 shadowColor: '#000',
-                shadowOffset: {
-                  width: 0,
-                  height: 12,
-                },
+                shadowOffset: {width: 0, height: 12},
                 shadowOpacity: 0.58,
                 shadowRadius: 16.0,
                 elevation: 24,
               }}
-              zIndex={2000}
+              zIndex={3000}
               zIndexInverse={2000}
-              ListEmptyComponent={() => (
-                <Text style={{padding: 10, textAlign: 'center', color: '#444'}}>
-                  Select the university first
-                </Text>
-              )}
             />
           </View>
-
-          <Space height={40} />
-
+          <Space height={normalized.hp(5)} />
           {/* Third DropDown */}
           <View
             style={{
@@ -364,10 +342,10 @@ const Home = () => {
               justifyContent: 'center',
               alignItems: 'center',
               backgroundColor: 'white',
-              padding: 5,
-              paddingLeft: 30,
-              height: 50,
-              borderRadius: 10,
+              // padding: 5,
+              paddingLeft: normalized.wp(8),
+              height: normalized.hp(7.5),
+              borderRadius: normalized.wp(2.5),
               zIndex: 80,
             }}>
             <Picture
@@ -394,8 +372,8 @@ const Home = () => {
               searchPlaceholder="Search Department"
               style={{
                 backgroundColor: '#fff',
-                width: 250,
-                height: 40,
+                width: normalized.wp(70),
+                height: normalized.hp(5),
                 borderWidth: 0,
               }}
               searchTextInputStyle={{
@@ -403,9 +381,12 @@ const Home = () => {
               }}
               dropDownContainerStyle={{
                 backgroundColor: '#fff',
-                maxHeight: 300,
-                width: 330,
-                marginLeft: -70,
+                maxHeight: normalized.hp(40),
+                padding: 10,
+                // width: 330,
+                // marginLeft: -70,
+                width: normalized.wp(89),
+                marginLeft: normalized.wp(-18.5),
                 borderWidth: 0,
                 shadowColor: '#000',
                 shadowOffset: {
@@ -416,8 +397,8 @@ const Home = () => {
                 shadowRadius: 16.0,
                 elevation: 24,
               }}
-              zIndex={1000}
-              zIndexInverse={3000}
+              zIndex={2000}
+              zIndexInverse={2000}
               ListEmptyComponent={() => (
                 <Text style={{padding: 10, textAlign: 'center', color: '#444'}}>
                   Select the Degree first
@@ -425,9 +406,7 @@ const Home = () => {
               )}
             />
           </View>
-
-          <Space height={40} />
-
+          <Space height={normalized.hp(5)} />
           {/* Fourth DropDown */}
           <View
             style={{
@@ -435,10 +414,10 @@ const Home = () => {
               justifyContent: 'center',
               alignItems: 'center',
               backgroundColor: 'white',
-              padding: 5,
-              paddingLeft: 30,
-              height: 50,
-              borderRadius: 10,
+              // padding: 5,
+              paddingLeft: normalized.wp(8),
+              height: normalized.hp(7.5),
+              borderRadius: normalized.wp(2.5),
               zIndex: 70,
             }}>
             <Picture
@@ -465,8 +444,8 @@ const Home = () => {
               searchPlaceholder="Search Program"
               style={{
                 backgroundColor: '#fff',
-                width: 250,
-                height: 40,
+                width: normalized.wp(70),
+                height: normalized.hp(5),
                 borderWidth: 0,
               }}
               searchTextInputStyle={{
@@ -474,9 +453,10 @@ const Home = () => {
               }}
               dropDownContainerStyle={{
                 backgroundColor: '#fff',
-                maxHeight: 300,
-                width: 330,
-                marginLeft: -70,
+                maxHeight: normalized.hp(30),
+                padding: 10,
+                width: normalized.wp(89),
+                marginLeft: normalized.wp(-18.5),
                 borderWidth: 0,
                 shadowColor: '#000',
                 shadowOffset: {
@@ -487,8 +467,8 @@ const Home = () => {
                 shadowRadius: 16.0,
                 elevation: 24,
               }}
-              zIndex={100}
-              zIndexInverse={100}
+              zIndex={1000}
+              zIndexInverse={3000}
               ListEmptyComponent={() => (
                 <Text style={{padding: 10, textAlign: 'center', color: '#444'}}>
                   Select the Department first
@@ -496,18 +476,20 @@ const Home = () => {
               )}
             />
           </View>
+          <Space height={normalized.hp(18)} />
 
-          <Space height={120} />
-
+          {/* Similar implementation for third and fourth dropdowns */}
           {/* Submit Button */}
           <TouchableOpacity
             style={{
               backgroundColor: '#0961F5',
-              height: 47,
+              // height: 47,
+              height: normalized.hp(7.5),
               justifyContent: 'center',
-              alignItems: 'flex-end',
-              paddingRight: 10,
-              borderRadius: 40,
+              // alignItems: 'flex-end',
+              // paddingRight: 10,
+              // paddingRight: normalized.wp(2),
+              borderRadius: normalized.hp(7),
             }}
             onPress={() => {
               if (fourthValue) {
@@ -523,13 +505,30 @@ const Home = () => {
                 const selectedProgram = selectedDepartment?.programs.find(
                   program => program.name === fourthValue,
                 );
-                if (selectedProgram) {
+                if (selectedProgram && selectedUniversity) {
+                  // Construct the ProgramDetails object to match the expected structure
+                  const programDetails: ProgramDetails = {
+                    name: selectedProgram.name,
+                    feeStructure: selectedProgram.feeStructure,
+                    facilitiesMembers: selectedProgram.facilitiesMembers.map(
+                      member => ({
+                        ProfessorName: member.ProfessorName,
+                        Rank: member.Rank,
+                        profImg: member.profImg || 'default-prof-img-url', // Handle undefined profImg
+                      }),
+                    ),
+                    LastYearMerit: selectedProgram.LastYearMerit || 'N/A', // Provide default for optional fields
+                  };
+
                   navigation.navigate('Unidetails', {
-                    programDetails: selectedProgram,
+                    programDetails, // Pass the transformed object
                     universityName: selectedUniversity.name,
-                    UniIMG: selectedUniversity?.UniIMG,
-                    Website: selectedUniversity?.Website,
-                    AdmissionPortal: selectedUniversity?.AdmissionPortal,
+                    UniIMG: selectedUniversity.UniIMG || 'default-uni-img-url', // Provide defaults if undefined
+                    Website:
+                      selectedUniversity.Website || 'No Website available',
+                    AdmissionPortal:
+                      selectedUniversity.AdmissionPortal ||
+                      'No Admission Portal available',
                   });
                 }
               }
@@ -539,20 +538,27 @@ const Home = () => {
                 flexDirection: 'row',
                 alignItems: 'center',
                 justifyContent: 'center',
-                // gap: 20,
               }}>
-              <Text style={{color: 'white', fontWeight: 'bold', fontSize: 18}}>
+              <Text
+                style={{
+                  color: 'white',
+                  fontWeight: 'bold',
+                  fontSize: normalizedFont.rf(2.6),
+                  marginLeft: normalized.wp(29),
+                  letterSpacing: 1,
+                }}>
                 Continue
               </Text>
               <View
                 style={{
-                  height: 40,
-                  width: 40,
+                  height: normalized.hp(6.2),
+                  width: normalized.hp(6.2),
                   backgroundColor: 'white',
                   justifyContent: 'center',
                   alignItems: 'center',
                   borderRadius: 100,
-                  marginLeft: 90,
+                  marginLeft: normalized.wp(19),
+                  alignSelf: 'flex-end',
                 }}>
                 <View style={{alignItems: 'center'}}>
                   <MaterialIcons name="east" color="#0961F5" size={25} />
@@ -560,75 +566,7 @@ const Home = () => {
               </View>
             </View>
           </TouchableOpacity>
-          {/* <TouchableOpacity
-            style={{
-              backgroundColor: '#0961F5',
-              height: 47,
-              justifyContent: 'center',
-              alignItems: 'flex-end',
-              paddingRight: 10,
-              borderRadius: 40,
-            }}
-            onPress={() => {
-              if (!firstValue) {
-                ToastAndroid.show(
-                  'Please select a University first!',
-                  ToastAndroid.SHORT,
-                );
-                return;
-              }
-              if (!secondValue) {
-                ToastAndroid.show(
-                  'Please select a Degree first!',
-                  ToastAndroid.SHORT,
-                );
-                return;
-              }
-              if (!thirdValue) {
-                ToastAndroid.show(
-                  'Please select a Department first!',
-                  ToastAndroid.SHORT,
-                );
-                return;
-              }
-              if (!fourthValue) {
-                ToastAndroid.show(
-                  'Please select a Program first!',
-                  ToastAndroid.SHORT,
-                );
-                return;
-              }
-
-              // All fields are selected, proceed to navigate
-              const selectedUniversity = data.universities.find(
-                university => university.name === firstValue,
-              );
-              const selectedDegree = selectedUniversity?.degrees.find(
-                degree => degree.degreeType === secondValue,
-              );
-              const selectedDepartment = selectedDegree?.departments.find(
-                dept => dept.name === thirdValue,
-              );
-              const selectedProgram = selectedDepartment?.programs.find(
-                program => program.name === fourthValue,
-              );
-
-              if (selectedProgram) {
-                navigation.navigate('Unidetails', {
-                  programDetails: selectedProgram,
-                  universityName: selectedUniversity.name,
-                });
-              }
-            }}>
-            <View
-              style={{
-                flexDirection: 'row',
-                alignItems: 'center',
-                justifyContent: 'center',
-              }}>
-              <Text style={{color: '#fff', fontWeight: 'bold'}}>Continue</Text>
-            </View>
-          </TouchableOpacity> */}
+          {/* ... */}
         </View>
       </ScrollView>
     </KeyboardAvoidingView>

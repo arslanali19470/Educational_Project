@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react';
 import {View, Text, StyleSheet} from 'react-native';
+import {normalizedFont} from '../../Utils/AppConstant';
 
 const LastYearMerit = ({route}) => {
   const {LastMerit} = route.params;
@@ -26,13 +27,14 @@ const styles = StyleSheet.create({
     paddingHorizontal: 15,
   },
   heading: {
-    fontSize: 20,
+    // fontSize: 20,
+    fontSize: normalizedFont.rf(3),
     fontWeight: 'bold',
     marginBottom: 15,
     color: '#333',
   },
   text: {
-    fontSize: 16,
+    fontSize: normalizedFont.rf(2.3),
     marginTop: 5,
     color: '#333',
   },

@@ -1,22 +1,16 @@
 import React from 'react';
 import {View, Text, StyleSheet, ScrollView} from 'react-native';
 import Heading from '../../Components/CustomComponents/Heading';
+import {normalizedFont} from '../../Utils/AppConstant';
 
 const FeeStructure = ({route}) => {
-  const {FeesStruure} = route.params;
+  const {feeStructure} = route.params;
   return (
     <ScrollView style={styles.container}>
-      {/* <Heading
-        text="Fee Structure (2024-2025)"
-        textAlign="center"
-        fontSize={20}
-        weight={'bold'}
-      /> */}
-
       {/* Undergraduate Programs */}
       <Text style={styles.sectionTitle}>Undergraduate Programs</Text>
 
-      <Text style={styles.subHeading}>{FeesStruure}</Text>
+      <Text style={styles.subHeading}>{feeStructure}</Text>
       <Text style={styles.subHeading}>1. Tuition Fees</Text>
       <Text style={styles.text}>- Arts & Humanities: $8,000 per year</Text>
       <Text style={styles.text}>- Science & Technology: $10,000 per year</Text>
@@ -66,24 +60,24 @@ export default FeeStructure;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 20,
     paddingHorizontal: 15,
   },
   sectionTitle: {
-    fontSize: 18,
+    fontSize: normalizedFont.rf(2.7),
     fontWeight: 'bold',
     marginTop: 20,
     color: '#222',
   },
   subHeading: {
-    fontSize: 16,
+    fontSize: normalizedFont.rf(2.3),
     fontWeight: 'bold',
     marginTop: 10,
     color: '#333',
   },
   text: {
-    fontSize: 14,
+    fontSize: normalizedFont.rf(2),
     marginTop: 5,
     color: '#444',
+    // color: 'red',
   },
 });

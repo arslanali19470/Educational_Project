@@ -3,8 +3,14 @@ import {NavigationContainer} from '@react-navigation/native';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import MainNavigation from './src/Navigation/MainNavigation';
 import {ThemeProvider} from './src/Utils/Theme/ThemeContext';
+import SplashScreen from 'react-native-splash-screen';
 
 const App: React.FC = () => {
+  React.useEffect(() => {
+    setTimeout(() => {
+      SplashScreen.hide();
+    }, 500);
+  }, []);
   return (
     <GestureHandlerRootView>
       <ThemeProvider>

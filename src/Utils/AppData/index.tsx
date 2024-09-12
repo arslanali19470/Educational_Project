@@ -36,20 +36,21 @@ export interface University {
 export interface ProgramDetails {
   name: string;
   feeStructure: string;
-  facilitiesMembers: string[];
+  facilitiesMembers: {ProfessorName: string; Rank: string; profImg?: string}[];
   LastYearMerit: string;
+  profImg?: string;
 }
 // const [AllUniversities, setAllUniversities] = useState([]);
 // console.log(data.universities);
 // List of universities for the first dropdown
 export const universitiesInPakistan = [
+  'Punjab University',
+  'COMSATS University',
   // 'LUMS',
   // 'NUST',
-  'Punjab University',
   // 'Aga Khan University',
   // 'Quaid-i-Azam University',
   // 'IBA',
-  'COMSATS University',
   // 'University of Karachi',
   // 'PIEAS',
   // 'GIKI',
