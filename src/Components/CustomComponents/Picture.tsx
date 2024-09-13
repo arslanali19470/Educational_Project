@@ -15,6 +15,11 @@ interface PictureProps extends ImageProps {
   marginRight?: number;
   transform?: boolean;
   marginBottom?: number;
+  position?: string;
+  top?: number | string;
+  left?: number | string;
+  right?: number | string;
+  bottom?: number | string;
   // themeValue?: string;
 }
 
@@ -31,6 +36,11 @@ const Picture: React.FC<PictureProps> = ({
   marginRight,
   transform,
   marginBottom,
+  position,
+  top,
+  left,
+  right,
+  bottom,
   // themeValue
 }) => {
   return (
@@ -45,6 +55,11 @@ const Picture: React.FC<PictureProps> = ({
             borderRadius: roundCorner || 0,
             marginLeft: marginLeft,
             marginRight: marginRight,
+            position: position,
+            top: top,
+            left: left,
+            right: right,
+            bottom: bottom,
           }}
           source={{ uri: uriSource }}
           onError={(error) => console.log('Image failed to load:', error)}
@@ -61,6 +76,11 @@ const Picture: React.FC<PictureProps> = ({
             transform: transform ? [{ scaleY: -1 }] : [],
             marginBottom: marginBottom,
             marginRight: marginRight,
+            position: position,
+            top: top,
+            left: left,
+            right: right,
+            bottom: bottom,
             // backgroundColor: themeValue == 'dark' ? 'white' : 'transparent'
           }}
           source={localSource || undefined}
