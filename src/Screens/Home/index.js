@@ -22,6 +22,7 @@ import {
   responsiveWidth,
 } from 'react-native-responsive-dimensions';
 import {styles} from './styles';
+import LoadingModel from '../../Components/CustomComponents/LoadingModel';
 
 const Home = () => {
   const [firstOpen, setFirstOpen] = useState(false);
@@ -187,10 +188,7 @@ const Home = () => {
       style={styles.KeyAvoidViewStyle}
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
       keyboardVerticalOffset={Platform.OS === 'ios' ? 60 : 0}>
-      {/*  
       <LoadingModel Loading={false} />
-      */}
-
       <View style={styles.ImageBox}>
         <Picture
           localSource={HomeScreenLogo}
@@ -258,9 +256,7 @@ const Home = () => {
           )}
         />
       </View>
-
       <Space height={normalized.hp(5)} />
-
       {/* Second DropDown */}
       <View style={[styles.FirstListView, {zIndex: 90}]}>
         <Picture
@@ -308,9 +304,7 @@ const Home = () => {
           )}
         />
       </View>
-
       <Space height={40} />
-
       {/* Third DropDown */}
       <View style={[styles.FirstListView, {zIndex: 80}]}>
         <Picture
@@ -364,9 +358,7 @@ const Home = () => {
           )}
         />
       </View>
-
       <Space height={40} />
-
       {/* Fourth DropDown */}
       <View style={[styles.FirstListView, {zIndex: 70}]}>
         <Picture
@@ -425,9 +417,7 @@ const Home = () => {
           )}
         />
       </View>
-
       <Space height={120} />
-
       {/* Submit Button */}
       <TouchableOpacity style={styles.ButtonMainstyle} onPress={BtnFunction}>
         <View style={styles.BtnDirection}>

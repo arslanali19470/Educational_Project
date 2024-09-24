@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, StyleSheet} from 'react-native';
+import {View, StyleSheet, ActivityIndicator} from 'react-native';
 import Modal from 'react-native-modal';
 import Picture from './Picture';
 import {LoadingImg, Profile} from '../../assets';
